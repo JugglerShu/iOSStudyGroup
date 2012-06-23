@@ -4,7 +4,7 @@ when '+'
 when '-'
   p minus(ARGV[1].to_i, ARGV[2].to_i)
 when '*'
-  p (ARGV[1].to_i, ARGV[2].to_i)
+  p multiply(ARGV[1].to_i, ARGV[2].to_i)
 when '/'
   p div(ARGV[1].to_i, ARGV[2].to_i)
 else
@@ -19,3 +19,8 @@ def plus( operand1, operand2 )
     result = operand1 + operand2
     return result
 end
+
+def multiply(a, b)
+    a * b
+end
+
