@@ -1,12 +1,12 @@
 case ARGV[3]
 when '+'
-  p ARGV[0], ARGV[1], ARGV[3]
+  p plus(ARGV[1].to_i, ARGV[2].to_i)
 when '-'
-  p ARGV[0], ARGV[1], ARGV[3]
+  p minus(ARGV[1].to_i, ARGV[2].to_i)
 when '*'
-  p ARGV[0], ARGV[1], ARGV[3]
+  p (ARGV[1].to_i, ARGV[2].to_i)
 when '/'
-  div(ARGV[1], ARGV[3])
+  p div(ARGV[1].to_i, ARGV[2].to_i)
 else
   exit
 end
@@ -15,4 +15,7 @@ def div( op1, op2 )
 	return op1/op2
 end
 
-p div(10,4)
+def plus( operand1, operand2 )
+    result = operand1 + operand2
+    return result
+end
