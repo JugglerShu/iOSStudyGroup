@@ -1,0 +1,18 @@
+
+Todo List
+
+# Railsとは
+	ウェブアプリケーションに必要ないろいろなものを全部まとめたもの
+	ウェブサーバー、DB操作コマンド、Model-View-Controller作成コマンドなど
+	一定の規則（考え方）に則って、コードなどを配置するだけでウェブサービスが作れる感じ
+# Setup
+	Homebrew Install (ruby)
+		ruby -e "$(curl -fsSL https://raw.github.com/mxcl/homebrew/go)"
+		brew install ruby
+	
+	Rails 
+		gem install rails
+
+# Model View Controller
+
+# 
